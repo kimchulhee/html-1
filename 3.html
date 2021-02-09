@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<title>web1-JavaScript</title>
+</head>
+<body>
+<h1><a href="index.html">web</a></h1>
+<ol>
+<li><a href="1.html">HTML</a><li>
+<li><a href="2.html">CSS</a><li>
+<li><a href="3.html">JavaScript</a><li>
+</ol>
+<h2>JavaScript</h2>
+자바스크립트의 변수는 var,[12] let[13], const[14] 키워드를 사용하여 정의할 수 있다.
+
+// Declares a function-scoped variable named `x`, and implicitly assigns the
+// special value `undefined` to it.
+var x;
+
+// More explicit version of the above.
+var x2 = undefined;
+
+// Declares a block-scoped variable named `y`, and implicitly sets it to
+// `undefined`. The `let` keyword was introduced in ECMAScript 2015.
+let y;
+
+// More explicit version of the above.
+let y2 = undefined;
+
+// Declares a block-scoped, un-reassign-able variable named `z`, and sets it to
+// `undefined`. The `const` keyword was also introduced in ECMAScript 2015, and
+// must be explicitly assigned to.
+const z = undefined;
+
+// Declares a variable named `myNumber`, and assigns a number literal (the value
+// `2`) to it.
+let myNumber = 2;
+
+// Reassigns `myNumber`, setting it to a string literal (the value `"foo"`).
+// JavaScript is a dynamically-typed language, so this is legal.
+myNumber = "foo";
+HTML과 자바스크립트
+HTML은 < > 태그로 엘리먼트(element)를 정의한다면, 이러한 HTML의 <body> Hello, World! </body> 엘리먼트에 일대일 대응하는 자바스크립트(ECMA스크립트)는
+
+document.body.innerText = "Hello, World!";
+처럼 정의된다. 여기서처럼 HTML과 자바스크립트 간에는 광범위한 호환성을 보장하는 동전의 양면성 같은 구조를 엿볼 수 있는데, 이것이 가능한 것은 DOM 때문이라고 말할 수 있다.[15]
+
+한편 자바스크립트는 HTML과의 연동관계에서 HTML의 로딩시점 또는 초기화와 관련된 즉시 실행 함수(Immediately invoked function expression)를 제공한다.
+<img src="https://inteng-storage.s3.amazonaws.com/img/iea/QlO7Z8Lew7/coding-literacy-important.jpg">
+</body>
+</html>
